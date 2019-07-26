@@ -1,0 +1,19 @@
+{
+    "name": "cfworker",
+    "version": "1.0.0",
+    "description": "package for creating workers templates",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "format": "prettier --write '**/*.{js,css,json,md}'"
+    },
+    "author": "herman.havrysh <herman.havrysh@sandbx.co>",
+    "license": "ISC",
+    "devDependencies": {
+        "prettier": "^1.17.0"
+    },
+    "dependencies": {
+        "flagger": "^2.0.4",
+        "serverless-cloudflare-workers": "^1.2.0"
+    }
+}
